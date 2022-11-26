@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
 import Header from '../components/header'
