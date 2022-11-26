@@ -10,13 +10,16 @@ body {
 	padding: 0;
 	margin: 0;
 	font-weight: 400;
-	font-family: "Inter";
+	font-family: "Inter", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	color: #32386a;
 }
 body b {
 	font-weight: 500;
 }
-
+:root {
+	--bs-font-sans-serif: "Inter";
+}
 .form-control:focus {
 	color: #212529;
 	background-color: #fff;
