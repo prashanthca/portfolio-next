@@ -17,7 +17,9 @@ body {
 body b {
 	font-weight: 500;
 }
-
+:root {
+	--bs-font-sans-serif: "Inter";
+}
 .form-control:focus {
 	color: #212529;
 	background-color: #fff;
